@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string name; 
+    int i;
+
+    i = 0;
+
+    cout << "Digite a string desejada: ";
+    cin >> name;
+
+    while (name[i] != '\0')
+    {
+        i++;
+    }
+
+    cout << "O tamanho da string é: " << i;
+
+}
